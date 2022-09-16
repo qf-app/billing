@@ -4,3 +4,8 @@ Lab1:
 3. committhe changes in local repo (add, commit acommnads)
 4. push chjnages to remote repo
 5. ensure enbale authentication with ssh(private/public keys)/https (username/token)
+
+lab2:
+Run below script in ubuntu container:
+ Welcome.sh >>  Echo “hello world”
+Sh welcome.sh
