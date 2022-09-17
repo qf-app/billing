@@ -23,3 +23,7 @@ cherry-pick
 Pull vs fetch
 Merge vs rebase
 
+
+lab4:
+shellscript:   Read about sed, awk and cut commands in shell script
+python:  read csv file , write content into csv file 
