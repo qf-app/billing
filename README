@@ -9,3 +9,21 @@ lab2:
 Run below script in ubuntu container:
  Welcome.sh >>  Echo “hello world”
 Sh welcome.sh
+
+
+lab3:
+
+How many ways can merge from one branch to another branch?
+Read and explore on these git commands:
+Stash
+Reset
+Revert
+Fork
+cherry-pick
+Pull vs fetch
+Merge vs rebase
+
+
+lab4:
+shellscript:   Read about sed, awk and cut commands in shell script
+python:  read csv file , write content into csv file 
