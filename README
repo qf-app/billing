@@ -34,3 +34,9 @@ lab5:
     https://github.com/qf-devops/git-server/blob/master/webhook.rb
   
 lab6:
+   create maven project and run mvn clean install command.
+    ref: 
+      mvn archetype:generate -DgroupId=com.qfapp.app -DartifactId=accountservice -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+      mvn clean install
+      or 
+      docker run -it -v /root/prj/accountservice:/app maven mvn -f /app/pom.xml clean
