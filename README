@@ -40,3 +40,27 @@ lab6:
       mvn clean install
       or 
       docker run -it -v /root/prj/accountservice:/app maven mvn -f /app/pom.xml clean
+      
+lab7:
+  1. mvn clean deploy
+  2. create nexus repo using docker in another vm  ref: https://hub.docker.com/r/sonatype/nexus3
+      docker run -d -p 8081:8081 --name nexus sonatype/nexus3
+  3. create maven repositories in nexus url
+  4. add repos in pom.xml using distributed-management:
+  
+     <distributionManagement>
+    <repository>
+      <id>spring-releases</id>
+      <name>spring-releases</name>
+      <url>http://ip-172-31-23-20.ap-south-1.compute.internal:8081/nexus/content/repositories/spring-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>spring-snapshots</id>
+      <name>spring-snapshots</name>
+      <url>http://ip-172-31-23-20.ap-south-1.compute.internal:8081/nexus/content/repositories/spring-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+  
+  5. update credentials in settings.xml :  https://github.com/qf-devops/maven-spring/blob/master/settings.xml
+  6. mvn clean deploy -s settings.xml
+  
