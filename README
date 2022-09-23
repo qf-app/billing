@@ -64,3 +64,9 @@ lab7:
   5. update credentials in settings.xml :  https://github.com/qf-devops/maven-spring/blob/master/settings.xml
   6. mvn clean deploy -s settings.xml
   
+  lab8:
+     integrate sonarqube
+     docker pull sonarqube
+     docker run -itd -p 9000:9000 --name=sonarqube sonarqube
+  lab9:
+     read about aws policies and roles and user 
