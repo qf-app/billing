@@ -70,3 +70,5 @@ lab7:
      docker run -itd -p 9000:9000 --name=sonarqube sonarqube
   lab9:
      read about aws policies and roles and user 
+  lab10:
+    Add slaves to jenkins master  and run docker commands form jenkins job
