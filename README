@@ -72,3 +72,12 @@ lab7:
      read about aws policies and roles and user 
   lab10:
     Add slaves to jenkins master  and run docker commands form jenkins job
+    use manage nodes and clouds option from manage jenkins section.
+    create one vm and install jdk
+    creaste dir: /home/ubuntu/jenkins-agent
+    copy publickey from master to vm authorized_key
+    master side:
+      generate ssh key ==> ssh-keygen
+      
+      
+    
