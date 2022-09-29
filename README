@@ -89,3 +89,17 @@ lab7:
  docker images
  docker push 675467602881.dkr.ecr.ap-south-1.amazonaws.com/webapp   
     
+lab12:
+ run docker-compose:
+ git lcone https://github.com/qfitsolutions/docker.git
+ apt  install docker-compose -y
+  108  docker-compose -f docker-compose.yml up -d 
+  109  docker-compose
+  110  docker-compose ps
+  111  docker-compose stop
+  112  docker-compose start
+  113  docker-compose stop
+  114  docker-compose ps
+  115  docker-compose start
+  116  docker-compose ps
+
