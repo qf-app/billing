@@ -103,3 +103,7 @@ lab12:
   115  docker-compose start
   116  docker-compose ps
 
+lab13:
+  refer this url:
+    https://bikramat.medium.com/set-up-a-kubernetes-cluster-with-kubeadm-508db74028ce
+    
